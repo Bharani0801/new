@@ -12,10 +12,7 @@ public class Data extends BaseClass {
 		
 		Provider p = new Provider();
 		WebElement username = p.getUsername();
-		sendkeys(username, "Jack");
-		WebElement password = p.getPassword();
-		sendkeys(password, "Hello123");
-		password.click();
+		
 		
 		
 	}
